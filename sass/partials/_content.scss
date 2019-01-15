@@ -1,0 +1,53 @@
+.content{
+  padding: 20px;
+}
+//carrusel
+//div of 'next event' (color #73c5a5)
+#next-event{
+  padding: 10px;
+  background-image: url("../img/bg-event-0.jpg");
+  color: #ffffff;
+  height: 720px;
+}
+#each-event{
+  font-size: 18px;
+  width: 105px;
+  font-weight: bold;
+  padding: 10px;
+  background: $color-greenWater;
+}
+.carrusel {
+  width: 50%;
+}
+.date{
+  margin-top: 100px;
+  font-size: 40px; 
+  margin-bottom: 10px;
+}
+.subtitle{
+  margin-top: 25px;
+  font-size: 24px; 
+}
+.location{
+  margin-top: 50px;
+  font-size: 24px; 
+  font-weight: bold;
+}
+.link-container{
+  background: $color-greenWater;
+  width: 100%;
+  text-align: right;
+}
+.link{
+  padding: 10px;
+  font-size: 10px;
+}
+
+//events
+.events{
+  width: 40%;
+  display: inline-block;
+}
+.dates{
+   
+}

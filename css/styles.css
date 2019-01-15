@@ -3,13 +3,16 @@
   margin: 0; }
 
 a {
-  text-decoration: none;
-  color: #ffffff; }
+  font-size: 10px;
+  color: #ffffff;
+  padding: 10px;
+  text-decoration: none; }
 
 .main-content {
   width: 1100px;
   font-family: Georgia, serif;
-  color: #333333; }
+  color: #333333;
+  padding: 2%; }
 
 .header {
   text-align: center; }
@@ -19,45 +22,53 @@ h1 {
   margin-bottom: 10px; }
 
 .header p {
-  font-size: 14px; }
+  font-size: 14px;
+  padding: 10px; }
+
+.content {
+  padding: 20px; }
 
 #next-event {
   padding: 10px;
-  background-image: url("../img/bg-event.jpeg");
+  background-image: url("../img/bg-event-0.jpg");
   color: #ffffff;
   height: 720px; }
 
-#nextEvent {
+#each-event {
   font-size: 18px;
+  width: 105px;
+  font-weight: bold;
+  padding: 10px;
   background: #73c5a5; }
 
 .carrusel {
-  width: 55%; }
+  width: 50%; }
 
-.events {
-  width: 45%; }
-
-#date {
-  font-size: 40px; }
+.date {
+  margin-top: 100px;
+  font-size: 40px;
+  margin-bottom: 10px; }
 
 .subtitle {
+  margin-top: 25px;
   font-size: 24px; }
 
 .location {
+  margin-top: 50px;
   font-size: 24px;
   font-weight: bold; }
 
 .link-container {
-  color: #73c5a5;
-  width: 100%; }
+  background: #73c5a5;
+  width: 100%;
+  text-align: right; }
 
-a {
-  font-size: 10px;
-  color: #ffffff;
+.link {
   padding: 10px;
-  text-decoration: none; }
+  font-size: 10px; }
 
 .events {
-  float: right; }
+  width: 40%;
+  display: inline-block; }
 
 /*# sourceMappingURL=styles.css.map */
