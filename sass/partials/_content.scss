@@ -1,6 +1,17 @@
 .content{
   padding: 20px;
 }
+// arrows
+.arrow-left {
+  height: 50px;
+  widows: 50px;
+  position: absolute;
+}
+.arrow-right {
+  height: 50px;
+  width: 50px;
+position: absolute;
+}
 //carrusel
 //div of 'next event' (color #73c5a5)
 #next-event{
@@ -17,7 +28,9 @@
   background: $color-greenWater;
 }
 .carrusel {
-  width: 50%;
+  width: 53%;
+  display: inline-block;
+  position: relative;
 }
 .date{
   margin-top: 100px;
@@ -45,9 +58,29 @@
 
 //events
 .events{
-  width: 40%;
+  width: 43%;
   display: inline-block;
+  float: right;
 }
 .dates{
-   
+  font-size: 25px; 
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.subtitles{
+  font-size: 18px;
+margin-bottom: 10px;
+}
+.locations{
+  font-weight: bold;
+}
+.btn{
+  background: #ffffff;
+  border-radius: 100px;
+  height: 30px;
+  font-size: 12px;
+  padding: 5px;
+  text-transform: capitalize;
+  border: 1px solid #222222;
+  margin-top: 15px;
 }

@@ -14,6 +14,13 @@ a {
   color: #333333;
   padding: 2%; }
 
+.active::before {
+  width: 15px;
+  background: #73c5a5;
+  content: "";
+  display: block;
+  position: absolute; }
+
 .header {
   text-align: center; }
 
@@ -27,6 +34,16 @@ h1 {
 
 .content {
   padding: 20px; }
+
+.arrow-left {
+  height: 50px;
+  widows: 50px;
+  position: absolute; }
+
+.arrow-right {
+  height: 50px;
+  width: 50px;
+  position: absolute; }
 
 #next-event {
   padding: 10px;
@@ -42,7 +59,9 @@ h1 {
   background: #73c5a5; }
 
 .carrusel {
-  width: 50%; }
+  width: 53%;
+  display: inline-block;
+  position: relative; }
 
 .date {
   margin-top: 100px;
@@ -68,7 +87,30 @@ h1 {
   font-size: 10px; }
 
 .events {
-  width: 40%;
-  display: inline-block; }
+  width: 43%;
+  display: inline-block;
+  float: right; }
+
+.dates {
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: bold; }
+
+.subtitles {
+  font-size: 18px;
+  margin-bottom: 10px; }
+
+.locations {
+  font-weight: bold; }
+
+.btn {
+  background: #ffffff;
+  border-radius: 100px;
+  height: 30px;
+  font-size: 12px;
+  padding: 5px;
+  text-transform: capitalize;
+  border: 1px solid #222222;
+  margin-top: 15px; }
 
 /*# sourceMappingURL=styles.css.map */
