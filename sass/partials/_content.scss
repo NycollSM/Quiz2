@@ -4,13 +4,19 @@
 // arrows
 .arrow-left {
   height: 50px;
-  widows: 50px;
+  width: 50px;
+  display: inline;
   position: absolute;
+  bottom: 50%;
+  right: 100%;
 }
 .arrow-right {
   height: 50px;
   width: 50px;
-position: absolute;
+  position: absolute;
+  display: inline;
+  bottom: 50%;
+  left: 100%;
 }
 //carrusel
 //div of 'next event' (color #73c5a5)
@@ -58,14 +64,10 @@ position: absolute;
 
 //events
 .events{
-  width: 43%;
+  width: 40%;
   display: inline-block;
   float: right;
-}
-.dates{
-  font-size: 25px; 
-  margin-bottom: 10px;
-  font-weight: bold;
+  margin-left: 3%;
 }
 .subtitles{
   font-size: 18px;
@@ -83,4 +85,11 @@ margin-bottom: 10px;
   text-transform: capitalize;
   border: 1px solid #222222;
   margin-top: 15px;
+}
+.active{
+  border-left: 15px solid $color-greenWater;
+  padding-left: 15px;
+}
+h2{
+  margin-top: 20px;
 }
