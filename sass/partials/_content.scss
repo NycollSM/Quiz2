@@ -2,19 +2,14 @@
   padding: 20px;
 }
 // arrows
-.arrow-left {
-  height: 50px;
-  width: 50px;
-  display: inline;
-  position: absolute;
+#left {
+  @include buttons-carrusel;
   bottom: 50%;
   right: 100%;
+  background-image: url('.../arrows/arrow-left.svg') ;
 }
-.arrow-right {
-  height: 50px;
-  width: 50px;
-  position: absolute;
-  display: inline;
+#right {
+  @include buttons-carrusel;
   bottom: 50%;
   left: 100%;
 }

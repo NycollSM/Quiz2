@@ -12,6 +12,9 @@ a {
   padding: 10px;
   text-decoration: none;
 }
+li{
+  list-style: none;
+}
 
 .main-content {
   width: 1100px;
@@ -28,4 +31,12 @@ a {
   display: block;
   position: absolute;
 } 
+ @mixin buttons-carrusel {
+  height: 50px;
+  width: 50px;
+  margin: 2px;
+  display: inline;
+  position: absolute;
+  border: 0px solid;
+ }
 

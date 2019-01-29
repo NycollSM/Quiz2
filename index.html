@@ -6,6 +6,7 @@
   <title>Page Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+  <script src="js/jquery-3.3.1.js"></script>
 </head>
 <body>
   <div class="main-content">
@@ -17,16 +18,17 @@
     <!--events-->
     <div class="content">  
         
-      <div class="carrusel">     
-        <img src="arrows/arrow-left.svg"  class="arrow-left" alt="">
-        <img src="arrows/arrow-right.svg" class="arrow-right" alt=""> 
+      <div class="carrusel">
+        <button id="left"></button>
+        <button id="right"></button>
+        
+         
         <div id="next-event">
  
           <p id="each-event">Next Event</p>
           <p class="date">Jan 26th</p>
           <p class="subtitle"> Rock to ICe Clinic - Ourlay Ice <br> Climing Festival</p>
           <p class="location"> Ourlay Ice Park</p>             
-        
         </div> 
 
         <!--link in the bottom--> 
@@ -37,42 +39,11 @@
       <!--events-->      
       <div class="events">
         <!--each event-->
-        
-        <div class="event-1 active">
-          <h2>Jan 26th</h2>
-          <p class="subtitles"> Rock to ICe Clinic - Ourlay Ice Climing Festival</p>
-          <p class="locations"> Ourlay Ice Park</p>
-          <button class="btn">Get Event Details</button>
-        </div>
-        
-        <div class="event-2">
-          <h2>Jan 30th - Feb 1st</h2>
-          <p class="subtitles"> Outdoor Retailer Snow Show</p>
-          <p class="locations"> -The Colorado Convention Center</p>
-          <button class="btn">Get Event Details</button>
-        </div>
-        <div class="event-3">
-          <h2>Feb 1st</h2>
-          <p class="subtitles">Berthoud Backcountry Bonanza</p>
-          <p class="locations">-Berthoud Pass</p>
-          <button class="btn">Get Event Details</button>
-        </div>
-        <div class="event-4">
-          <h2>Feb 3rd</h2>
-          <p class="subtitles">Fat Biking @ Devil's Thumb Ranch</p>
-          <p class="locations">- Devils Thumb Ranch Resort & Spa</p>
-          <button class= "btn">Get Event Details</button>
-        </div>
-        <div class="event-5">
-          <h2>Feb 4th - Feb 5th</h2>
-          <p class="subtitles"> SIA/WWSRA On-Snow Demo</p>
-          <p class="locations"> -Copper Mountain</p>
-          <button class="btn">Get Event Details</button>
-        </div>
+        <ul class="event"></ul>
       </div>
-    </div>
     <!--end events-->
-  </div>  
+  </div>
+  <script src="js/jquery-3.3.1.js"></script>  
   <script src="js/script.js"></script>
 </body>
 </html>
