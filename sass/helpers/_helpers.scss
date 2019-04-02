@@ -16,7 +16,7 @@ li{
   list-style: none;
 }
 
-.main-content {
+.main--content {
   width: 1100px;
   font-family: Georgia, serif;
   color: #333333;
@@ -31,12 +31,12 @@ li{
   display: block;
   position: absolute;
 } 
- @mixin buttons-carrusel {
+@mixin buttons-carrusel {
   height: 50px;
   width: 50px;
   margin: 2px;
   display: inline;
   position: absolute;
   border: 0px solid;
- }
+}
 

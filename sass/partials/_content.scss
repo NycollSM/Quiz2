@@ -1,58 +1,63 @@
+h2{
+  margin-top: 20px;
+}
 .content{
   padding: 20px;
 }
 // arrows
-#left {
+.carrusel__arrow__left {
   @include buttons-carrusel;
   bottom: 50%;
   right: 100%;
   background-image: url('.../arrows/arrow-left.svg') ;
 }
-#right {
+.carrusel__arrow__right {
   @include buttons-carrusel;
   bottom: 50%;
   left: 100%;
 }
 //carrusel
 //div of 'next event' (color #73c5a5)
-#next-event{
+.carrusel {
+  width: 53%;
+  display: inline-block;
+  position: relative;
+}
+.carrusel__event{
   padding: 10px;
   background-image: url("../img/bg-event-0.jpg");
+  background-repeat: no-repeat;
   color: #ffffff;
   height: 720px;
 }
-#each-event{
+.carrusel__info{
   font-size: 18px;
   width: 105px;
   font-weight: bold;
   padding: 10px;
   background: $color-greenWater;
 }
-.carrusel {
-  width: 53%;
-  display: inline-block;
-  position: relative;
-}
-.date{
+
+.carrusel__date{
   margin-top: 100px;
   font-size: 40px; 
   margin-bottom: 10px;
 }
-.subtitle{
+.carrusel__subtitle{
   margin-top: 25px;
   font-size: 24px; 
 }
-.location{
+.carrusel__location{
   margin-top: 50px;
   font-size: 24px; 
   font-weight: bold;
 }
-.link-container{
+.link__container{
   background: $color-greenWater;
   width: 100%;
   text-align: right;
 }
-.link{
+.link__item{
   padding: 10px;
   font-size: 10px;
 }
@@ -64,14 +69,14 @@
   float: right;
   margin-left: 3%;
 }
-.subtitles{
+.event__subtitle{
   font-size: 18px;
 margin-bottom: 10px;
 }
-.locations{
+.event__location{
   font-weight: bold;
 }
-.btn{
+.event__button{
   background: #ffffff;
   border-radius: 100px;
   height: 30px;
@@ -84,7 +89,4 @@ margin-bottom: 10px;
 .active{
   border-left: 15px solid $color-greenWater;
   padding-left: 15px;
-}
-h2{
-  margin-top: 20px;
 }

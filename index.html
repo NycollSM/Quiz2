@@ -6,40 +6,32 @@
   <title>Page Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
-  <script src="js/jquery-3.3.1.js"></script>
 </head>
 <body>
-  <div class="main-content">
+  <div class="main--content">
     <div class="header">
       <h1>Upcoming Events and Activities</h1>
       <p>We've got a full schedule. Follow us to see if Gearheads are hosting exciting events in your area.</p>
     </div>
-    <!--end header-->
     <!--events-->
-    <div class="content">  
         
       <div class="carrusel">
-        <button id="left"></button>
-        <button id="right"></button>
-        
-         
-        <div id="next-event">
- 
-          <p id="each-event">Next Event</p>
-          <p class="date">Jan 26th</p>
-          <p class="subtitle"> Rock to ICe Clinic - Ourlay Ice <br> Climing Festival</p>
-          <p class="location"> Ourlay Ice Park</p>             
-        </div> 
-
+        <button id="left" class="carrusel__arrow__letf"></button>
+        <button id="right" class="carrusel__arrow__right"></button>
+        <div id="carrusel__event">
+          <p id="carrusel__info">Next Event</p>
+          <p class="carrusel__date">Jan 26th</p>
+          <p class="carrusel__subtitle"> Rock to ICe Clinic - Ourlay Ice <br> Climing Festival</p>
+          <p class="carrusel__location"> Ourlay Ice Park</p>             
+        </div>
+      </div>
         <!--link in the bottom--> 
-        <div class="link-container">
-          <a href="#" class="link">Get Event Details</a>
-        </div>      
-      </div>   
+        <div class="link__container">
+          <a href="#" class="link__item">Get Event Details</a>
+        </div>        
       <!--events-->      
       <div class="events">
-        <!--each event-->
-        <ul class="event"></ul>
+        <ul class="event__info"></ul>
       </div>
     <!--end events-->
   </div>
